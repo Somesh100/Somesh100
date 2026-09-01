@@ -168,12 +168,19 @@ The project demonstrates how a Java application can use the Spring ecosystem to 
 🛠️ Technology Stack
 
 Language       : Java
+
 Framework      : Spring Boot
+
 Persistence    : Spring Data JPA
+
 ORM            : Hibernate
+
 Database       : MySQL
+
 Build Tool     : Maven
+
 Application    : Console-based
+
 Version Control: Git / GitHub
 
 ✨ Key Features
