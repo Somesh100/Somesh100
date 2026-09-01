@@ -158,7 +158,6 @@ This experience helped me understand both **legacy enterprise applications** and
 ---
 
 🚀 Featured Project
-
 🎓 Student Registration System
 
 A console-based Student Registration System developed using Java and Spring Boot, with Spring Data JPA and Hibernate for persistence and MySQL as the database.
@@ -166,7 +165,6 @@ A console-based Student Registration System developed using Java and Spring Boot
 The project demonstrates how a Java application can use the Spring ecosystem to implement student management functionality with database persistence.
 
 🛠️ Technology Stack
-
 Language       : Java
 Framework      : Spring Boot
 Persistence    : Spring Data JPA
@@ -175,9 +173,7 @@ Database       : MySQL
 Build Tool     : Maven
 Application    : Console-based
 Version Control: Git / GitHub
-
 ✨ Key Features
-
 Add student records
 View student records
 Search student records
@@ -189,9 +185,7 @@ Spring Data JPA repository integration
 Hibernate-based ORM
 CRUD operations
 Maven-based project structure
-
 🏛️ Project Architecture
-
         Console Application
                 │
                 ▼
@@ -212,7 +206,8 @@ Maven-based project structure
                 ▼
              MySQL
 
-🔗 **Repository:** [Student Registration System](https://github.com/Somesh100/StudentRegistration)
+🔗 Repository:
+Student Registration System
 
 ---
 
