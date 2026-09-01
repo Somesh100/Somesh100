@@ -157,35 +157,54 @@ This experience helped me understand both **legacy enterprise applications** and
 
 ---
 
-## 🚀 Featured Projects
+🚀 Featured Project
+🎓 Student Registration System
+A console-based Student Registration System developed using Java and Spring Boot, with Spring Data JPA and Hibernate for persistence and MySQL as the database.
+The project demonstrates how a Java application can use the Spring ecosystem to implement student management functionality with database persistence.
 
-### 🎓 Student Registration System
+🛠️ Technology Stack
+Language       : Java
+Framework      : Spring Boot
+Persistence    : Spring Data JPA
+ORM            : Hibernate
+Database       : MySQL
+Build Tool     : Maven
+Application    : Console-based
+Version Control: Git / GitHub
 
-A full-stack application developed using **Angular, Spring Boot, REST APIs, Spring Data JPA, Hibernate, and MySQL**.
+✨ Key Features
+Add student records
+View student records
+Search student records
+Update student information
+Delete student records
+Console-based user interaction
+Database persistence using MySQL
+Spring Data JPA repository integration
+Hibernate-based ORM
+CRUD operations
+Maven-based project structure
 
-#### Tech Stack
-
-```text
-Frontend     : Angular + TypeScript
-Backend      : Spring Boot
-API          : REST APIs
-Persistence  : Spring Data JPA / Hibernate
-Database     : MySQL
-Build Tool   : Maven
-Version Ctrl : Git / GitHub
-```
-
-#### Key Features
-
-* Student registration
-* Student information management
-* RESTful API integration
-* CRUD operations
-* Angular frontend
-* Spring Boot backend
-* MySQL database integration
-* JPA/Hibernate-based persistence
-* Frontend-to-backend communication
+🏛️ Project Architecture
+        Console Application
+                │
+                ▼
+        Spring Boot Application
+                │
+                ▼
+          Service Layer
+                │
+                ▼
+        Repository Layer
+                │
+                ▼
+       Spring Data JPA
+                │
+                ▼
+            Hibernate
+                │
+                ▼
+             MySQL
 
 🔗 **Repository:** [Student Registration System](https://github.com/Somesh100/StudentRegistration)
 
