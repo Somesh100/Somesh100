@@ -158,7 +158,6 @@ This experience helped me understand both **legacy enterprise applications** and
 ---
 
 🚀 Featured Project
-
 🎓 Student Registration System
 
 A console-based Student Registration System developed using Java and Spring Boot, with Spring Data JPA and Hibernate for persistence and MySQL as the database.
@@ -166,62 +165,92 @@ A console-based Student Registration System developed using Java and Spring Boot
 The project demonstrates how a Java application can use the Spring ecosystem to implement student management functionality with database persistence.
 
 🛠️ Technology Stack
-
-Language       : Java
-
-Framework      : Spring Boot
-
-Persistence    : Spring Data JPA
-
-ORM            : Hibernate
-
-Database       : MySQL
-
-Build Tool     : Maven
-
-Application    : Console-based
-
-Version Control: Git / GitHub
-
+Technology	Used
+Language	Java
+Framework	Spring Boot
+Persistence	Spring Data JPA
+ORM	Hibernate
+Database	MySQL
+Build Tool	Maven
+Application Type	Console-based
+Version Control	Git / GitHub
 ✨ Key Features
-
-Add student records
-View student records
-Search student records
-Update student information
-Delete student records
-Console-based user interaction
-Database persistence using MySQL
-Spring Data JPA repository integration
-Hibernate-based ORM
-CRUD operations
-Maven-based project structure
-
+✅ Add student records
+✅ View student records
+✅ Search student records
+✅ Update student information
+✅ Delete student records
+✅ Console-based user interaction
+✅ Database persistence using MySQL
+✅ Spring Data JPA repository integration
+✅ Hibernate-based ORM
+✅ CRUD operations
+✅ Maven-based project structure
 🏛️ Project Architecture
+┌─────────────────────────┐
+│   Console Application   │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│    Spring Boot App      │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│      Service Layer      │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│    Repository Layer     │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│    Spring Data JPA      │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│       Hibernate         │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│         MySQL           │
+└─────────────────────────┘
+📂 Project Structure
+StudentRegistration
+│
+├── src
+│   └── main
+│       ├── java
+│       │   └── ...
+│       └── resources
+│           └── application.properties
+│
+├── pom.xml
+├── mvnw
+├── mvnw.cmd
+└── README.md
+🎯 What I Learned
 
-        Console Application
-                │
-                ▼
-        Spring Boot Application
-                │
-                ▼
-          Service Layer
-                │
-                ▼
-        Repository Layer
-                │
-                ▼
-       Spring Data JPA
-                │
-                ▼
-            Hibernate
-                │
-                ▼
-             MySQL
+Through this project, I gained practical experience in:
 
-🔗 Repository:
-Student Registration System
+Java application development
+Spring Boot project setup
+Dependency Injection
+Spring Data JPA
+Hibernate ORM
+MySQL database integration
+CRUD operations
+Repository and service layer implementation
+Maven dependency management
+Git and GitHub version control
+🔗 Repository
 
+👉 View Student Registration System on GitHub
 ---
 
 ## 📚 Currently Strengthening
