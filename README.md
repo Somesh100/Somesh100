@@ -85,7 +85,7 @@ One of the key areas of my professional experience has been working with the tra
           └────────────┬─────────────┘
                        ↓
           ┌──────────────────────────┐
-          │      Java Backend       │
+          │      Java Backend        │
           └────────────┬─────────────┘
                        ↓
           ┌──────────────────────────┐
@@ -157,57 +157,83 @@ This experience helped me understand both **legacy enterprise applications** and
 
 ---
 
-🚀 Featured Project
-🎓 Student Registration System
+# 🚀 Featured Project
 
-A console-based Student Registration System developed using Java and Spring Boot, with Spring Data JPA and Hibernate for persistence and MySQL as the database.
+## 🎓 Student Registration System
+
+A **console-based Student Registration System** developed using **Java and Spring Boot**, with **Spring Data JPA and Hibernate** for persistence and **MySQL** as the database.
 
 The project demonstrates how a Java application can use the Spring ecosystem to implement student management functionality with database persistence.
 
-🛠️ Technology Stack
-Language       : Java
-Framework      : Spring Boot
-Persistence    : Spring Data JPA
-ORM            : Hibernate
-Database       : MySQL
-Build Tool     : Maven
-Application    : Console-based
-Version Control: Git / GitHub
-✨ Key Features
-Add student records
-View student records
-Search student records
-Update student information
-Delete student records
-Console-based user interaction
-Database persistence using MySQL
-Spring Data JPA repository integration
-Hibernate-based ORM
-CRUD operations
-Maven-based project structure
-🏛️ Project Architecture
-        Console Application
-                │
-                ▼
-        Spring Boot Application
-                │
-                ▼
-          Service Layer
-                │
-                ▼
-        Repository Layer
-                │
-                ▼
-       Spring Data JPA
-                │
-                ▼
-            Hibernate
-                │
-                ▼
-             MySQL
+### 🛠️ Technology Stack
 
-🔗 Repository:
-Student Registration System
+| Technology          | Details         |
+| ------------------- | --------------- |
+| **Language**        | Java            |
+| **Framework**       | Spring Boot     |
+| **Persistence**     | Spring Data JPA |
+| **ORM**             | Hibernate       |
+| **Database**        | MySQL           |
+| **Build Tool**      | Maven           |
+| **Application**     | Console-based   |
+| **Version Control** | Git / GitHub    |
+
+### ✨ Key Features
+
+* ➕ Add student records
+* 👁️ View student records
+* 🔍 Search student records
+* ✏️ Update student information
+* 🗑️ Delete student records
+* 💻 Console-based user interaction
+* 🗄️ Database persistence using MySQL
+* 🔗 Spring Data JPA repository integration
+* ⚙️ Hibernate-based ORM
+* 🔄 CRUD operations
+* 📦 Maven-based project structure
+
+### 🏛️ Project Architecture
+
+```text
+        ┌──────────────────────────┐
+        │   Console Application    │
+        └────────────┬─────────────┘
+                     │
+                     ▼
+        ┌──────────────────────────┐
+        │   Spring Boot Application│
+        └────────────┬─────────────┘
+                     │
+                     ▼
+        ┌──────────────────────────┐
+        │      Service Layer       │
+        └────────────┬─────────────┘
+                     │
+                     ▼
+        ┌──────────────────────────┐
+        │    Repository Layer      │
+        └────────────┬─────────────┘
+                     │
+                     ▼
+        ┌──────────────────────────┐
+        │    Spring Data JPA       │
+        └────────────┬─────────────┘
+                     │
+                     ▼
+        ┌──────────────────────────┐
+        │        Hibernate         │
+        └────────────┬─────────────┘
+                     │
+                     ▼
+        ┌──────────────────────────┐
+        │          MySQL            │
+        └──────────────────────────┘
+```
+
+### 🔗 Repository
+
+👉 **[Student Registration System](https://github.com/Somesh100/StudentRegistration)**
+
 ---
 
 ## 📚 Currently Strengthening
@@ -273,4 +299,5 @@ I'm always interested in connecting with developers, recruiters, and technology 
 ### ⭐ Thanks for visiting my profile!
 
 Feel free to explore my repositories and projects.
+
 I'm continuously learning, building, and improving my skills in **Java, Spring Boot, Microservices, Angular, REST APIs, and MySQL**.
